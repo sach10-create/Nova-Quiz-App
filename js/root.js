@@ -19,7 +19,7 @@ const loadTheme = (theme) => {
     themeIcon.classList.remove("fa-sun");
     themeIcon.classList.add("fa-moon");
     novaLogo.forEach((item) => {
-      item.src = "../../assets/nova-logo-light.png";
+      item.src = "../../assets/nova-logo-dark.png";
     });
   } else {
     themeIcon.classList.remove("fa-moon");
