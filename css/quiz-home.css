@@ -44,6 +44,12 @@
   background-color: var(--secondary-color);
   color: var(--black);
   font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.quiz-home .jersey-btn:hover{
+  background-color: var(--font-color);
+  color: var(--white);
 }
 
 .quiz-home-container .quiz-home .jersey-container .jersey-category {
@@ -52,4 +58,8 @@
 
 .quiz-category-block {
   margin-left: 3rem;
+}
+
+.quiz-home-container .footer-p{
+  color: var(--font-color);
 }

@@ -21,15 +21,15 @@
 
 .question-score{
      width: 47rem;
-     margin-top: 3rem;
-     margin-bottom: 3rem;
+     margin-top: 2rem;
+     margin-bottom: 2rem;
      justify-content: space-between;
 }
 
 .quiz-page .no-list{
     background-color: var(--primary-color);
     width: 47rem;
-    padding: 1.5rem;
+    padding: 1rem;
     text-align: center;
     border-radius: 1rem;
 }
@@ -47,7 +47,7 @@
     position: absolute;
     z-index: var(--card-z-index);
     left: 5rem;
-    top: 30%;
+    top: 35%;
     left: 15%;
     border-radius: 1rem;
     background-color: var(--primary-color);
@@ -65,4 +65,13 @@
 .agree:hover{
     background-color: var(--font-color);
     color: var(--secondary-color);
+}
+
+.prev-next-container{
+    width: 60%;
+    margin-top: 2rem;
+}
+
+.prev-next-container .h3-tag:hover{
+    color : var(--secondary-color);
 }

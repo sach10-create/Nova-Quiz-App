@@ -1,5 +1,4 @@
 const themeIcon = document.querySelector(".theme-icon");
-const novaLogo = document.querySelectorAll(".logo");
 
 console.log(themeIcon);
 const getCurrentTheme = () => {
@@ -18,15 +17,9 @@ const loadTheme = (theme) => {
   if (theme === "light") {
     themeIcon.classList.remove("fa-sun");
     themeIcon.classList.add("fa-moon");
-    novaLogo.forEach((item) => {
-      item.src = "../../assets/nova-logo-dark.png";
-    });
   } else {
     themeIcon.classList.remove("fa-moon");
     themeIcon.classList.add("fa-sun");
-    novaLogo.forEach((item) => {
-      item.src = "../../assets/nova-logo-dark.png";
-    });
   }
   root.setAttribute("color-scheme", `${theme}`);
 };
