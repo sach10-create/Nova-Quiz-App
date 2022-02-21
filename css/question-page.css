@@ -42,3 +42,27 @@
 .quiz-page-container .footer-p{
     color: var(--font-color);
 }
+
+.rules-modal-container{
+    position: absolute;
+    z-index: var(--card-z-index);
+    left: 5rem;
+    top: 30%;
+    left: 15%;
+    border-radius: 1rem;
+    background-color: var(--primary-color);
+    box-shadow: 1rem 1rem 1rem var(--box-shadow);
+}
+
+.rules-modal-container > *{
+    padding: 2rem;
+}
+
+.agree{
+    margin-left: 50%;
+}
+
+.agree:hover{
+    background-color: var(--font-color);
+    color: var(--secondary-color);
+}
